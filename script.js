@@ -1,13 +1,9 @@
-console.log ("Portifólio carregado!");
+    const hero = document.querySelector(".hero");
 
-const projetos = document.querySelectorAll ("Projeto");
-
-projetos.forEach (projeto => {
-    projeto.assEventListener ("mouseover", () => {
-        projeto.style.transform = "scale(1.05)";
+    window.addEventListener("scroll", () => {
+    if (window.scrollY > 80) {
+        hero.classList.add("shrink");
+    } else {
+        hero.classList.remove("shrink");
+    }
     });
-
-    projeto.addEventListener ("mouseout", () => {
-        projeto.style.transform = "scale(1)";
-    });
-});
