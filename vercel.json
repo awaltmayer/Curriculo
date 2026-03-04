@@ -1,28 +1,23 @@
 {
-  "buildCommand": "pnpm build",
-  "devCommand": "pnpm dev",
-  "installCommand": "pnpm install --legacy-peer-deps",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install --legacy-peer-deps",
   "framework": "vite",
   "outputDirectory": "dist/public",
   "env": {
     "NODE_ENV": "production"
   },
-  "headers": [
+  "routes": [
     {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600, s-maxage=3600"
-        }
-      ]
-    }
-  ],
-  "rewrites": [
+      "src": "^/assets/.*",
+      "dest": "/assets/$1",
+      "headers": {
+        "Cache-Control": "public, max-age=31536000, immutable"
+      }
+    },
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "^/.*",
+      "dest": "/index.html"
     }
-  ],
-  "trailingSlash": false
+  ]
 }
