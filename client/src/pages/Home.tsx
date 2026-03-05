@@ -339,8 +339,8 @@ export default function Home() {
                 <CardTitle>Email</CardTitle>
               </CardHeader>
               <CardContent>
-                <a href="mailto:augustoaltmayer@email.com" className="text-primary hover:underline">
-                  augustoaltmayer@email.com
+                <a href="mailto:augustowolfartaltmayer30@gmail.com" className="text-primary hover:underline">
+                  augustowolfartaltmayer30@gmail.com
                 </a>
               </CardContent>
             </Card>
@@ -361,7 +361,7 @@ export default function Home() {
                 <CardTitle>LinkedIn</CardTitle>
               </CardHeader>
               <CardContent>
-                <a href="#" className="text-primary hover:underline">
+                <a href="www.linkedin.com/in/augustowolfartaltmayer" className="text-primary hover:underline">
                   LinkedIn Profile
                 </a>
               </CardContent>
