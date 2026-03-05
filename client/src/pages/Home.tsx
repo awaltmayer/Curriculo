@@ -361,7 +361,7 @@ export default function Home() {
                 <CardTitle>LinkedIn</CardTitle>
               </CardHeader>
               <CardContent>
-                <a href="www.linkedin.com/in/augustowolfartaltmayer" className="text-primary hover:underline">
+                <a href="https://www.linkedin.com/in/augustowolfartaltmayer" className="text-primary hover:underline">
                   LinkedIn Profile
                 </a>
               </CardContent>
