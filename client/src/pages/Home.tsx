@@ -132,7 +132,7 @@ export default function Home() {
       >
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="text-2xl font-bold bg-gradient-to-r from-primary to-indigo-600 bg-clip-text text-transparent">
-            AW
+            awaltmayer
           </div>
           <div className="hidden md:flex gap-8">
             <a href="#sobre" className="text-foreground hover:text-primary transition-colors">
@@ -148,10 +148,7 @@ export default function Home() {
               Contato
             </a>
           </div>
-          <Button size="sm" variant="outline">
-            <Download className="w-4 h-4 mr-2" />
-            CV
-          </Button>
+
         </div>
       </nav>
 
@@ -164,9 +161,11 @@ export default function Home() {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary to-indigo-600 rounded-full blur-2xl opacity-20" />
                 <div className="relative w-64 h-64 rounded-full border-4 border-primary/20 overflow-hidden shadow-2xl hover-glow">
-                  <div className="w-full h-full bg-gradient-to-br from-blue-100 to-indigo-100 flex items-center justify-center">
-                    <i className="fas fa-user text-6xl text-primary/40" />
-                  </div>
+                  <img
+                    src="https://d2xsxph8kpxj0f.cloudfront.net/310519663149616614/5asFjHDoQ3Jf5o4h2HnyCS/augusto-avatar-UH7krwcQ3iMpnXFYgG3Tyq.webp"
+                    alt="Augusto W. Altmayer"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>
@@ -174,7 +173,7 @@ export default function Home() {
             {/* Hero Text */}
             <div className="animate-slideInRight">
               <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-4 leading-tight">
-                Augusto <span className="bg-gradient-to-r from-primary to-indigo-600 bg-clip-text text-transparent">Altmayer</span>
+                Augusto W. <span className="bg-gradient-to-r from-primary to-indigo-600 bg-clip-text text-transparent">Altmayer</span>
               </h1>
               <p className="text-xl text-muted-foreground mb-2">Desenvolvedor Front-End em Formação</p>
               <p className="text-base text-muted-foreground mb-8 leading-relaxed">
@@ -245,21 +244,19 @@ export default function Home() {
       <section id="skills" className="py-20 px-4">
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold text-foreground mb-12 text-center">Habilidades Técnicas</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div className="flex justify-center items-center flex-wrap gap-8 md:gap-12">
             {skills.map((skill, index) => (
-              <div key={index} className="animate-fadeInUp" style={{ animationDelay: `${index * 0.1}s` }}>
-                <div className="flex items-center justify-between mb-3">
-                  <div className="flex items-center gap-3">
-                    <i className={`${skill.icon} text-2xl text-primary`} />
-                    <span className="font-semibold text-foreground">{skill.name}</span>
-                  </div>
-                  <span className="text-sm font-medium text-primary">{skill.level}%</span>
+              <div
+                key={index}
+                className="animate-fadeInUp flex flex-col items-center gap-3 hover:scale-110 transition-transform duration-300 cursor-pointer"
+                style={{ animationDelay: `${index * 0.1}s` }}
+              >
+                <div className={`w-20 h-20 rounded-full bg-gradient-to-br ${skill.color} flex items-center justify-center shadow-lg hover:shadow-xl transition-shadow`}>
+                  <i className={`${skill.icon} text-4xl text-white`} />
                 </div>
-                <div className="skill-bar">
-                  <div
-                    className={`skill-bar-fill bg-gradient-to-r ${skill.color}`}
-                    style={{ width: `${skill.level}%` }}
-                  />
+                <div className="text-center">
+                  <p className="font-semibold text-foreground">{skill.name}</p>
+                  <p className="text-sm text-primary font-medium">{skill.level}%</p>
                 </div>
               </div>
             ))}
