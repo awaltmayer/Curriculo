@@ -44,6 +44,7 @@
 
 /* VSCode Dark Theme with Prettier Colors */
 :root {
+<<<<<<< HEAD
   /* Prettier Color Palette */
   --prettier-pink: #ff79c6;
   --prettier-blue: #8be9fd;
@@ -68,6 +69,18 @@
   --radius: 0.5rem;
   
   /* VSCode Dark Theme */
+=======
+  --primary: #0EA5E9;
+  --primary-foreground: #0C4A6E;
+  --sidebar-primary: #06B6D4;
+  --sidebar-primary-foreground: #082F49;
+  --chart-1: #FF8C42;
+  --chart-2: #0EA5E9;
+  --chart-3: #10B981;
+  --chart-4: #8B5CF6;
+  --chart-5: #EC4899;
+  --radius: 0.65rem;
+>>>>>>> bb7cdb76cd999bb74fa8bdc3a31253e2e6e4e9a2
   --background: #1e1e1e;
   --foreground: #e0e0e0;
   --card: #252526;
@@ -76,6 +89,7 @@
   --popover-foreground: #e0e0e0;
   --secondary: #2d2d30;
   --secondary-foreground: #cccccc;
+<<<<<<< HEAD
   --muted: #404040;
   --muted-foreground: #858585;
   --accent: #8be9fd;
@@ -99,6 +113,30 @@
   --primary-foreground: #1e1e1e;
   --sidebar-primary: #ff79c6;
   --sidebar-primary-foreground: #1e1e1e;
+=======
+  --muted: #3e3e42;
+  --muted-foreground: #858585;
+  --accent: #0EA5E9;
+  --accent-foreground: #1e1e1e;
+  --destructive: #F87171;
+  --destructive-foreground: #1e1e1e;
+  --border: #3e3e42;
+  --input: #3e3e42;
+  --ring: #0EA5E9;
+  --sidebar: #252526;
+  --sidebar-foreground: #e0e0e0;
+  --sidebar-accent: #0EA5E9;
+  --sidebar-accent-foreground: #1e1e1e;
+  --sidebar-border: #3e3e42;
+  --sidebar-ring: #0EA5E9;
+}
+
+.dark {
+  --primary: #0EA5E9;
+  --primary-foreground: #0C4A6E;
+  --sidebar-primary: #06B6D4;
+  --sidebar-primary-foreground: #082F49;
+>>>>>>> bb7cdb76cd999bb74fa8bdc3a31253e2e6e4e9a2
   --background: #1e1e1e;
   --foreground: #e0e0e0;
   --card: #252526;
@@ -107,6 +145,7 @@
   --popover-foreground: #e0e0e0;
   --secondary: #2d2d30;
   --secondary-foreground: #cccccc;
+<<<<<<< HEAD
   --muted: #404040;
   --muted-foreground: #858585;
   --accent: #8be9fd;
@@ -127,6 +166,28 @@
   --sidebar-accent-foreground: #e0e0e0;
   --sidebar-border: #3e3e42;
   --sidebar-ring: #ff79c6;
+=======
+  --muted: #3e3e42;
+  --muted-foreground: #858585;
+  --accent: #0EA5E9;
+  --accent-foreground: #1e1e1e;
+  --destructive: #F87171;
+  --destructive-foreground: #1e1e1e;
+  --border: #3e3e42;
+  --input: #3e3e42;
+  --ring: #0EA5E9;
+  --chart-1: #FF8C42;
+  --chart-2: #0EA5E9;
+  --chart-3: #10B981;
+  --chart-4: #8B5CF6;
+  --chart-5: #EC4899;
+  --sidebar: #252526;
+  --sidebar-foreground: #e0e0e0;
+  --sidebar-accent: #0EA5E9;
+  --sidebar-accent-foreground: #1e1e1e;
+  --sidebar-border: #3e3e42;
+  --sidebar-ring: #0EA5E9;
+>>>>>>> bb7cdb76cd999bb74fa8bdc3a31253e2e6e4e9a2
 }
 
 @layer base {
@@ -163,21 +224,15 @@
     min-width: 0;
   }
 
-  @media (min-width: 640px) {
-    .container {
-      padding-left: 1.5rem;
-      padding-right: 1.5rem;
-    }
+  .terminal-text {
+    @apply font-mono text-sm;
   }
 
-  @media (min-width: 1024px) {
-    .container {
-      padding-left: 2rem;
-      padding-right: 2rem;
-      max-width: 1280px;
-    }
+  .progress-bar {
+    @apply fixed top-0 left-0 h-1 bg-gradient-to-r from-blue-500 via-cyan-500 to-green-500 z-50 transition-all duration-300;
   }
 
+<<<<<<< HEAD
   /* Custom animations */
   @keyframes float {
     0%, 100% {
@@ -186,6 +241,30 @@
     50% {
       transform: translateY(-20px);
     }
+=======
+  .hover-lift {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+
+  .hover-glow {
+    @apply transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/50;
+  }
+
+  .animate-float {
+    @apply animate-pulse;
+  }
+
+  .animate-fadeInUp {
+    animation: fadeInUp 0.6s ease-out forwards;
+  }
+
+  .animate-slideInRight {
+    animation: slideInRight 0.6s ease-out forwards;
+  }
+
+  .bg-gradient-vscode {
+    @apply bg-gradient-to-b from-background via-background to-background;
+>>>>>>> bb7cdb76cd999bb74fa8bdc3a31253e2e6e4e9a2
   }
 
   @keyframes fadeInUp {
@@ -210,6 +289,7 @@
     }
   }
 
+<<<<<<< HEAD
   @keyframes typing {
     from {
       width: 0;
@@ -356,5 +436,20 @@
 
   .gradient-vscode {
     background: linear-gradient(135deg, #1e1e1e 0%, #252526 50%, #2d2d30 100%);
+=======
+  @media (min-width: 640px) {
+    .container {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      max-width: 1280px;
+    }
+>>>>>>> bb7cdb76cd999bb74fa8bdc3a31253e2e6e4e9a2
   }
 }

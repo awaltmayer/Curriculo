@@ -198,7 +198,7 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full blur-2xl opacity-20 group-hover:opacity-40 transition-opacity" />
                 <div className="relative w-64 h-64 rounded-full border-4 border-blue-500/40 overflow-hidden shadow-2xl hover-glow group-hover:border-blue-500/80 transition-all">
                   <img
-                    src="https://d2xsxph8kpxj0f.cloudfront.net/310519663149616614/5asFjHDoQ3Jf5o4h2HnyCS/augusto-avatar-UH7krwcQ3iMpnXFYgG3Tyq.webp"
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663149616614/XdYBSVWSDTRppXQb.jpg"
                     alt="Augusto W. Altmayer"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -410,8 +410,13 @@ export default function Home() {
                 <CardTitle className="text-blue-400 group-hover:text-cyan-400 transition-colors">Email</CardTitle>
               </CardHeader>
               <CardContent>
+<<<<<<< HEAD
                 <a href="mailto:augustowolfartaltmayer30@gmail.com" className="text-cyan-400 hover:text-blue-400 transition-colors terminal-text hover:underline">
                   Meu Email
+=======
+                <a href="mailto:augustoaltmayer@email.com" className="text-cyan-400 hover:text-blue-400 transition-colors terminal-text hover:underline">
+                  augustoaltmayer@email.com
+>>>>>>> bb7cdb76cd999bb74fa8bdc3a31253e2e6e4e9a2
                 </a>
               </CardContent>
             </Card>
@@ -422,7 +427,11 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <a href="https://github.com/awaltmayer" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-cyan-400 transition-colors terminal-text hover:underline">
+<<<<<<< HEAD
                   Meu GitHub
+=======
+                  github.com/awaltmayer
+>>>>>>> bb7cdb76cd999bb74fa8bdc3a31253e2e6e4e9a2
                 </a>
               </CardContent>
             </Card>
@@ -432,8 +441,13 @@ export default function Home() {
                 <CardTitle className="text-green-400 group-hover:text-orange-400 transition-colors">LinkedIn</CardTitle>
               </CardHeader>
               <CardContent>
+<<<<<<< HEAD
                 <a href="www.linkedin.com/in/augustowolfartaltmayer" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-green-400 transition-colors terminal-text hover:underline">
                   Meu LinkedIn
+=======
+                <a href="https://linkedin.com/in/augusto-altmayer" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-green-400 transition-colors terminal-text hover:underline">
+                  linkedin.com/in/augusto-altmayer
+>>>>>>> bb7cdb76cd999bb74fa8bdc3a31253e2e6e4e9a2
                 </a>
               </CardContent>
             </Card>
