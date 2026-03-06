@@ -198,7 +198,7 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full blur-2xl opacity-20 group-hover:opacity-40 transition-opacity" />
                 <div className="relative w-64 h-64 rounded-full border-4 border-blue-500/40 overflow-hidden shadow-2xl hover-glow group-hover:border-blue-500/80 transition-all">
                   <img
-                    src="https://d2xsxph8kpxj0f.cloudfront.net/310519663149616614/5asFjHDoQ3Jf5o4h2HnyCS/augusto-avatar-UH7krwcQ3iMpnXFYgG3Tyq.webp"
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663149616614/XdYBSVWSDTRppXQb.jpg"
                     alt="Augusto W. Altmayer"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
