@@ -42,75 +42,91 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+/* VSCode Dark Theme with Prettier Colors */
 :root {
-  --primary: #3B82F6;
-  --primary-foreground: #F0F9FF;
-  --sidebar-primary: #2563EB;
-  --sidebar-primary-foreground: #F0F9FF;
-  --chart-1: #93C5FD;
-  --chart-2: #3B82F6;
-  --chart-3: #1D4ED8;
-  --chart-4: #1E40AF;
-  --chart-5: #1E3A8A;
-  --radius: 0.65rem;
-  --background: #FFFFFF;
-  --foreground: #1E293B;
-  --card: #FFFFFF;
-  --card-foreground: #1E293B;
-  --popover: #FFFFFF;
-  --popover-foreground: #1E293B;
-  --secondary: #F1F5F9;
-  --secondary-foreground: #475569;
-  --muted: #E2E8F0;
-  --muted-foreground: #64748B;
-  --accent: #A78BFA;
-  --accent-foreground: #1E293B;
-  --destructive: #EF4444;
-  --destructive-foreground: #FFFFFF;
-  --border: #E2E8F0;
-  --input: #E2E8F0;
-  --ring: #3B82F6;
-  --sidebar: #FFFFFF;
-  --sidebar-foreground: #1E293B;
-  --sidebar-accent: #F1F5F9;
-  --sidebar-accent-foreground: #1E293B;
-  --sidebar-border: #E2E8F0;
-  --sidebar-ring: #3B82F6;
+  /* Prettier Color Palette */
+  --prettier-pink: #ff79c6;
+  --prettier-blue: #8be9fd;
+  --prettier-green: #50fa7b;
+  --prettier-orange: #ffb86c;
+  --prettier-purple: #bd93f9;
+  --prettier-red: #ff5555;
+  
+  /* Primary colors based on Prettier */
+  --primary: #ff79c6;
+  --primary-foreground: #1e1e1e;
+  --sidebar-primary: #ff79c6;
+  --sidebar-primary-foreground: #1e1e1e;
+  
+  /* Chart colors with Prettier palette */
+  --chart-1: #ff79c6;
+  --chart-2: #8be9fd;
+  --chart-3: #50fa7b;
+  --chart-4: #ffb86c;
+  --chart-5: #bd93f9;
+  
+  --radius: 0.5rem;
+  
+  /* VSCode Dark Theme */
+  --background: #1e1e1e;
+  --foreground: #e0e0e0;
+  --card: #252526;
+  --card-foreground: #e0e0e0;
+  --popover: #252526;
+  --popover-foreground: #e0e0e0;
+  --secondary: #2d2d30;
+  --secondary-foreground: #cccccc;
+  --muted: #404040;
+  --muted-foreground: #858585;
+  --accent: #8be9fd;
+  --accent-foreground: #1e1e1e;
+  --destructive: #ff5555;
+  --destructive-foreground: #1e1e1e;
+  --border: #3e3e42;
+  --input: #3e3e42;
+  --ring: #ff79c6;
+  --sidebar: #1e1e1e;
+  --sidebar-foreground: #e0e0e0;
+  --sidebar-accent: #2d2d30;
+  --sidebar-accent-foreground: #e0e0e0;
+  --sidebar-border: #3e3e42;
+  --sidebar-ring: #ff79c6;
 }
 
 .dark {
-  --primary: #3B82F6;
-  --primary-foreground: #F0F9FF;
-  --sidebar-primary: #2563EB;
-  --sidebar-primary-foreground: #F0F9FF;
-  --background: #0F172A;
-  --foreground: #F1F5F9;
-  --card: #1E293B;
-  --card-foreground: #F1F5F9;
-  --popover: #1E293B;
-  --popover-foreground: #F1F5F9;
-  --secondary: #1E293B;
-  --secondary-foreground: #CBD5E1;
-  --muted: #334155;
-  --muted-foreground: #94A3B8;
-  --accent: #A78BFA;
-  --accent-foreground: #F1F5F9;
-  --destructive: #F87171;
-  --destructive-foreground: #FFFFFF;
-  --border: #334155;
-  --input: #334155;
-  --ring: #3B82F6;
-  --chart-1: #93C5FD;
-  --chart-2: #3B82F6;
-  --chart-3: #1D4ED8;
-  --chart-4: #1E40AF;
-  --chart-5: #1E3A8A;
-  --sidebar: #1E293B;
-  --sidebar-foreground: #F1F5F9;
-  --sidebar-accent: #334155;
-  --sidebar-accent-foreground: #F1F5F9;
-  --sidebar-border: #334155;
-  --sidebar-ring: #3B82F6;
+  /* Same as root for consistency */
+  --primary: #ff79c6;
+  --primary-foreground: #1e1e1e;
+  --sidebar-primary: #ff79c6;
+  --sidebar-primary-foreground: #1e1e1e;
+  --background: #1e1e1e;
+  --foreground: #e0e0e0;
+  --card: #252526;
+  --card-foreground: #e0e0e0;
+  --popover: #252526;
+  --popover-foreground: #e0e0e0;
+  --secondary: #2d2d30;
+  --secondary-foreground: #cccccc;
+  --muted: #404040;
+  --muted-foreground: #858585;
+  --accent: #8be9fd;
+  --accent-foreground: #1e1e1e;
+  --destructive: #ff5555;
+  --destructive-foreground: #1e1e1e;
+  --border: #3e3e42;
+  --input: #3e3e42;
+  --ring: #ff79c6;
+  --chart-1: #ff79c6;
+  --chart-2: #8be9fd;
+  --chart-3: #50fa7b;
+  --chart-4: #ffb86c;
+  --chart-5: #bd93f9;
+  --sidebar: #1e1e1e;
+  --sidebar-foreground: #e0e0e0;
+  --sidebar-accent: #2d2d30;
+  --sidebar-accent-foreground: #e0e0e0;
+  --sidebar-border: #3e3e42;
+  --sidebar-ring: #ff79c6;
 }
 
 @layer base {
@@ -118,12 +134,7 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground font-sans;
-    font-family: 'Inter', sans-serif;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    @apply bg-background text-foreground;
   }
   button:not(:disabled),
   [role="button"]:not([aria-disabled="true"]),
@@ -167,20 +178,20 @@
     }
   }
 
-  /* Custom animations for curriculum */
+  /* Custom animations */
   @keyframes float {
     0%, 100% {
       transform: translateY(0px);
     }
     50% {
-      transform: translateY(-10px);
+      transform: translateY(-20px);
     }
   }
 
   @keyframes fadeInUp {
     from {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(30px);
     }
     to {
       opacity: 1;
@@ -191,7 +202,7 @@
   @keyframes slideInRight {
     from {
       opacity: 0;
-      transform: translateX(20px);
+      transform: translateX(30px);
     }
     to {
       opacity: 1;
@@ -199,17 +210,26 @@
     }
   }
 
-  @keyframes pulse-glow {
-    0%, 100% {
-      box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.7);
+  @keyframes typing {
+    from {
+      width: 0;
     }
-    50% {
-      box-shadow: 0 0 0 10px rgba(59, 130, 246, 0);
+    to {
+      width: 100%;
+    }
+  }
+
+  @keyframes blink {
+    0%, 49% {
+      border-right-color: #ff79c6;
+    }
+    50%, 100% {
+      border-right-color: transparent;
     }
   }
 
   .animate-float {
-    animation: float 3s ease-in-out infinite;
+    animation: float 6s ease-in-out infinite;
   }
 
   .animate-fadeInUp {
@@ -220,27 +240,121 @@
     animation: slideInRight 0.6s ease-out;
   }
 
-  .animate-pulse-glow {
-    animation: pulse-glow 2s infinite;
+  .typing-animation {
+    animation: typing 3s steps(40, end), blink 0.75s step-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #ff79c6;
   }
 
-  /* Skill bar styles */
   .skill-bar {
-    @apply relative h-2 bg-muted rounded-full overflow-hidden;
+    width: 100%;
+    height: 8px;
+    background-color: #3e3e42;
+    border-radius: 4px;
+    overflow: hidden;
   }
 
   .skill-bar-fill {
-    @apply h-full bg-gradient-to-r from-primary to-accent rounded-full transition-all duration-1000 ease-out;
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.6s ease-out;
   }
 
-
-
-  /* Hover effects */
   .hover-lift {
-    @apply transition-all duration-300 ease-out hover:shadow-lg hover:-translate-y-1;
+    @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-2;
   }
 
   .hover-glow {
-    @apply transition-all duration-300 ease-out hover:shadow-[0_0_20px_rgba(59,130,246,0.3)];
+    @apply transition-all duration-300 hover:shadow-2xl hover:shadow-primary/50;
+  }
+
+  /* Progress bar styling */
+  .progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3px;
+    background: linear-gradient(to right, #ff79c6, #8be9fd, #50fa7b, #ffb86c);
+    z-index: 100;
+    transition: width 0.3s ease;
+  }
+
+  /* Terminal-like styling */
+  .terminal-text {
+    font-family: 'Fira Code', 'Monaco', monospace;
+    letter-spacing: 0.05em;
+  }
+
+  .code-block {
+    background-color: #252526;
+    border: 1px solid #3e3e42;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    overflow-x: auto;
+  }
+
+  .code-block code {
+    color: #e0e0e0;
+    font-family: 'Fira Code', 'Monaco', monospace;
+    font-size: 0.875rem;
+  }
+
+  /* Prettier color classes */
+  .text-prettier-pink {
+    color: #ff79c6;
+  }
+
+  .text-prettier-blue {
+    color: #8be9fd;
+  }
+
+  .text-prettier-green {
+    color: #50fa7b;
+  }
+
+  .text-prettier-orange {
+    color: #ffb86c;
+  }
+
+  .text-prettier-purple {
+    color: #bd93f9;
+  }
+
+  .text-prettier-red {
+    color: #ff5555;
+  }
+
+  .bg-prettier-pink {
+    background-color: #ff79c6;
+  }
+
+  .bg-prettier-blue {
+    background-color: #8be9fd;
+  }
+
+  .bg-prettier-green {
+    background-color: #50fa7b;
+  }
+
+  .bg-prettier-orange {
+    background-color: #ffb86c;
+  }
+
+  .bg-prettier-purple {
+    background-color: #bd93f9;
+  }
+
+  .bg-prettier-red {
+    background-color: #ff5555;
+  }
+
+  /* Gradient backgrounds */
+  .gradient-prettier {
+    background: linear-gradient(135deg, #ff79c6 0%, #8be9fd 25%, #50fa7b 50%, #ffb86c 75%, #bd93f9 100%);
+  }
+
+  .gradient-vscode {
+    background: linear-gradient(135deg, #1e1e1e 0%, #252526 50%, #2d2d30 100%);
   }
 }
