@@ -42,45 +42,17 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
-/* VSCode Dark Theme with Prettier Colors */
 :root {
-<<<<<<< HEAD
-  /* Prettier Color Palette */
-  --prettier-pink: #ff79c6;
-  --prettier-blue: #8be9fd;
-  --prettier-green: #50fa7b;
-  --prettier-orange: #ffb86c;
-  --prettier-purple: #bd93f9;
-  --prettier-red: #ff5555;
-  
-  /* Primary colors based on Prettier */
-  --primary: #ff79c6;
-  --primary-foreground: #1e1e1e;
-  --sidebar-primary: #ff79c6;
-  --sidebar-primary-foreground: #1e1e1e;
-  
-  /* Chart colors with Prettier palette */
-  --chart-1: #ff79c6;
-  --chart-2: #8be9fd;
-  --chart-3: #50fa7b;
-  --chart-4: #ffb86c;
-  --chart-5: #bd93f9;
-  
-  --radius: 0.5rem;
-  
-  /* VSCode Dark Theme */
-=======
-  --primary: #0EA5E9;
-  --primary-foreground: #0C4A6E;
-  --sidebar-primary: #06B6D4;
-  --sidebar-primary-foreground: #082F49;
-  --chart-1: #FF8C42;
-  --chart-2: #0EA5E9;
-  --chart-3: #10B981;
-  --chart-4: #8B5CF6;
-  --chart-5: #EC4899;
+  --primary: #0ea5e9;
+  --primary-foreground: #0c4a6e;
+  --sidebar-primary: #06b6d4;
+  --sidebar-primary-foreground: #082f49;
+  --chart-1: #ff8c42;
+  --chart-2: #0ea5e9;
+  --chart-3: #10b981;
+  --chart-4: #8b5cf6;
+  --chart-5: #ec4899;
   --radius: 0.65rem;
->>>>>>> bb7cdb76cd999bb74fa8bdc3a31253e2e6e4e9a2
   --background: #1e1e1e;
   --foreground: #e0e0e0;
   --card: #252526;
@@ -89,54 +61,28 @@
   --popover-foreground: #e0e0e0;
   --secondary: #2d2d30;
   --secondary-foreground: #cccccc;
-<<<<<<< HEAD
-  --muted: #404040;
-  --muted-foreground: #858585;
-  --accent: #8be9fd;
-  --accent-foreground: #1e1e1e;
-  --destructive: #ff5555;
-  --destructive-foreground: #1e1e1e;
-  --border: #3e3e42;
-  --input: #3e3e42;
-  --ring: #ff79c6;
-  --sidebar: #1e1e1e;
-  --sidebar-foreground: #e0e0e0;
-  --sidebar-accent: #2d2d30;
-  --sidebar-accent-foreground: #e0e0e0;
-  --sidebar-border: #3e3e42;
-  --sidebar-ring: #ff79c6;
-}
-
-.dark {
-  /* Same as root for consistency */
-  --primary: #ff79c6;
-  --primary-foreground: #1e1e1e;
-  --sidebar-primary: #ff79c6;
-  --sidebar-primary-foreground: #1e1e1e;
-=======
   --muted: #3e3e42;
   --muted-foreground: #858585;
-  --accent: #0EA5E9;
+  --accent: #0ea5e9;
   --accent-foreground: #1e1e1e;
-  --destructive: #F87171;
+  --destructive: #f87171;
   --destructive-foreground: #1e1e1e;
   --border: #3e3e42;
   --input: #3e3e42;
-  --ring: #0EA5E9;
+  --ring: #0ea5e9;
   --sidebar: #252526;
   --sidebar-foreground: #e0e0e0;
-  --sidebar-accent: #0EA5E9;
+  --sidebar-accent: #0ea5e9;
   --sidebar-accent-foreground: #1e1e1e;
   --sidebar-border: #3e3e42;
-  --sidebar-ring: #0EA5E9;
+  --sidebar-ring: #0ea5e9;
 }
 
 .dark {
-  --primary: #0EA5E9;
-  --primary-foreground: #0C4A6E;
-  --sidebar-primary: #06B6D4;
-  --sidebar-primary-foreground: #082F49;
->>>>>>> bb7cdb76cd999bb74fa8bdc3a31253e2e6e4e9a2
+  --primary: #0ea5e9;
+  --primary-foreground: #0c4a6e;
+  --sidebar-primary: #06b6d4;
+  --sidebar-primary-foreground: #082f49;
   --background: #1e1e1e;
   --foreground: #e0e0e0;
   --card: #252526;
@@ -145,49 +91,26 @@
   --popover-foreground: #e0e0e0;
   --secondary: #2d2d30;
   --secondary-foreground: #cccccc;
-<<<<<<< HEAD
-  --muted: #404040;
-  --muted-foreground: #858585;
-  --accent: #8be9fd;
-  --accent-foreground: #1e1e1e;
-  --destructive: #ff5555;
-  --destructive-foreground: #1e1e1e;
-  --border: #3e3e42;
-  --input: #3e3e42;
-  --ring: #ff79c6;
-  --chart-1: #ff79c6;
-  --chart-2: #8be9fd;
-  --chart-3: #50fa7b;
-  --chart-4: #ffb86c;
-  --chart-5: #bd93f9;
-  --sidebar: #1e1e1e;
-  --sidebar-foreground: #e0e0e0;
-  --sidebar-accent: #2d2d30;
-  --sidebar-accent-foreground: #e0e0e0;
-  --sidebar-border: #3e3e42;
-  --sidebar-ring: #ff79c6;
-=======
   --muted: #3e3e42;
   --muted-foreground: #858585;
-  --accent: #0EA5E9;
+  --accent: #0ea5e9;
   --accent-foreground: #1e1e1e;
-  --destructive: #F87171;
+  --destructive: #f87171;
   --destructive-foreground: #1e1e1e;
   --border: #3e3e42;
   --input: #3e3e42;
-  --ring: #0EA5E9;
-  --chart-1: #FF8C42;
-  --chart-2: #0EA5E9;
-  --chart-3: #10B981;
-  --chart-4: #8B5CF6;
-  --chart-5: #EC4899;
+  --ring: #0ea5e9;
+  --chart-1: #ff8c42;
+  --chart-2: #0ea5e9;
+  --chart-3: #10b981;
+  --chart-4: #8b5cf6;
+  --chart-5: #ec4899;
   --sidebar: #252526;
   --sidebar-foreground: #e0e0e0;
-  --sidebar-accent: #0EA5E9;
+  --sidebar-accent: #0ea5e9;
   --sidebar-accent-foreground: #1e1e1e;
   --sidebar-border: #3e3e42;
-  --sidebar-ring: #0EA5E9;
->>>>>>> bb7cdb76cd999bb74fa8bdc3a31253e2e6e4e9a2
+  --sidebar-ring: #0ea5e9;
 }
 
 @layer base {
@@ -232,16 +155,6 @@
     @apply fixed top-0 left-0 h-1 bg-gradient-to-r from-blue-500 via-cyan-500 to-green-500 z-50 transition-all duration-300;
   }
 
-<<<<<<< HEAD
-  /* Custom animations */
-  @keyframes float {
-    0%, 100% {
-      transform: translateY(0px);
-    }
-    50% {
-      transform: translateY(-20px);
-    }
-=======
   .hover-lift {
     @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
   }
@@ -264,13 +177,12 @@
 
   .bg-gradient-vscode {
     @apply bg-gradient-to-b from-background via-background to-background;
->>>>>>> bb7cdb76cd999bb74fa8bdc3a31253e2e6e4e9a2
   }
 
   @keyframes fadeInUp {
     from {
       opacity: 0;
-      transform: translateY(30px);
+      transform: translateY(20px);
     }
     to {
       opacity: 1;
@@ -281,7 +193,7 @@
   @keyframes slideInRight {
     from {
       opacity: 0;
-      transform: translateX(30px);
+      transform: translateX(20px);
     }
     to {
       opacity: 1;
@@ -289,154 +201,6 @@
     }
   }
 
-<<<<<<< HEAD
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width: 100%;
-    }
-  }
-
-  @keyframes blink {
-    0%, 49% {
-      border-right-color: #ff79c6;
-    }
-    50%, 100% {
-      border-right-color: transparent;
-    }
-  }
-
-  .animate-float {
-    animation: float 6s ease-in-out infinite;
-  }
-
-  .animate-fadeInUp {
-    animation: fadeInUp 0.6s ease-out;
-  }
-
-  .animate-slideInRight {
-    animation: slideInRight 0.6s ease-out;
-  }
-
-  .typing-animation {
-    animation: typing 3s steps(40, end), blink 0.75s step-end infinite;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid #ff79c6;
-  }
-
-  .skill-bar {
-    width: 100%;
-    height: 8px;
-    background-color: #3e3e42;
-    border-radius: 4px;
-    overflow: hidden;
-  }
-
-  .skill-bar-fill {
-    height: 100%;
-    border-radius: 4px;
-    transition: width 0.6s ease-out;
-  }
-
-  .hover-lift {
-    @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-2;
-  }
-
-  .hover-glow {
-    @apply transition-all duration-300 hover:shadow-2xl hover:shadow-primary/50;
-  }
-
-  /* Progress bar styling */
-  .progress-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 3px;
-    background: linear-gradient(to right, #ff79c6, #8be9fd, #50fa7b, #ffb86c);
-    z-index: 100;
-    transition: width 0.3s ease;
-  }
-
-  /* Terminal-like styling */
-  .terminal-text {
-    font-family: 'Fira Code', 'Monaco', monospace;
-    letter-spacing: 0.05em;
-  }
-
-  .code-block {
-    background-color: #252526;
-    border: 1px solid #3e3e42;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    overflow-x: auto;
-  }
-
-  .code-block code {
-    color: #e0e0e0;
-    font-family: 'Fira Code', 'Monaco', monospace;
-    font-size: 0.875rem;
-  }
-
-  /* Prettier color classes */
-  .text-prettier-pink {
-    color: #ff79c6;
-  }
-
-  .text-prettier-blue {
-    color: #8be9fd;
-  }
-
-  .text-prettier-green {
-    color: #50fa7b;
-  }
-
-  .text-prettier-orange {
-    color: #ffb86c;
-  }
-
-  .text-prettier-purple {
-    color: #bd93f9;
-  }
-
-  .text-prettier-red {
-    color: #ff5555;
-  }
-
-  .bg-prettier-pink {
-    background-color: #ff79c6;
-  }
-
-  .bg-prettier-blue {
-    background-color: #8be9fd;
-  }
-
-  .bg-prettier-green {
-    background-color: #50fa7b;
-  }
-
-  .bg-prettier-orange {
-    background-color: #ffb86c;
-  }
-
-  .bg-prettier-purple {
-    background-color: #bd93f9;
-  }
-
-  .bg-prettier-red {
-    background-color: #ff5555;
-  }
-
-  /* Gradient backgrounds */
-  .gradient-prettier {
-    background: linear-gradient(135deg, #ff79c6 0%, #8be9fd 25%, #50fa7b 50%, #ffb86c 75%, #bd93f9 100%);
-  }
-
-  .gradient-vscode {
-    background: linear-gradient(135deg, #1e1e1e 0%, #252526 50%, #2d2d30 100%);
-=======
   @media (min-width: 640px) {
     .container {
       padding-left: 1.5rem;
@@ -450,6 +214,5 @@
       padding-right: 2rem;
       max-width: 1280px;
     }
->>>>>>> bb7cdb76cd999bb74fa8bdc3a31253e2e6e4e9a2
   }
 }
