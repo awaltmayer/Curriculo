@@ -568,10 +568,10 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <a
-                  href="mailto:augustoaltmayer@email.com"
+                  href="mailto:augustowolfartaltmayer30@gmail.com"
                   className="text-cyan-400 hover:text-blue-400 transition-colors terminal-text hover:underline"
                 >
-                  augustoaltmayer@email.com
+                  Meu Email
                 </a>
               </CardContent>
             </Card>
@@ -589,7 +589,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="text-green-400 hover:text-cyan-400 transition-colors terminal-text hover:underline"
                 >
-                  github.com/awaltmayer
+                  Meu GitHub
                 </a>
               </CardContent>
             </Card>
@@ -602,12 +602,12 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <a
-                  href="https://linkedin.com/in/augusto-altmayer"
+                  href="www.linkedin.com/in/augustowolfartaltmayer"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-orange-400 hover:text-green-400 transition-colors terminal-text hover:underline"
                 >
-                  linkedin.com/in/augusto-altmayer
+                  Meu LinkedIn
                 </a>
               </CardContent>
             </Card>
