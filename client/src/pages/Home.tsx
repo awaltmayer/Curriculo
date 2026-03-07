@@ -414,8 +414,8 @@ export default function Home() {
                 <a href="mailto:augustowolfartaltmayer30@gmail.com" className="text-cyan-400 hover:text-blue-400 transition-colors terminal-text hover:underline">
                   Meu Email
 =======
-                <a href="mailto:augustoaltmayer@email.com" className="text-cyan-400 hover:text-blue-400 transition-colors terminal-text hover:underline">
-                  augustoaltmayer@email.com
+                <a href="mailto:augustowolfartaltmayer30@gmail.com" className="text-cyan-400 hover:text-blue-400 transition-colors terminal-text hover:underline">
+                  Meu email
 >>>>>>> bb7cdb76cd999bb74fa8bdc3a31253e2e6e4e9a2
                 </a>
               </CardContent>
@@ -430,7 +430,7 @@ export default function Home() {
 <<<<<<< HEAD
                   Meu GitHub
 =======
-                  github.com/awaltmayer
+                  Meu Github
 >>>>>>> bb7cdb76cd999bb74fa8bdc3a31253e2e6e4e9a2
                 </a>
               </CardContent>
@@ -445,8 +445,8 @@ export default function Home() {
                 <a href="www.linkedin.com/in/augustowolfartaltmayer" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-green-400 transition-colors terminal-text hover:underline">
                   Meu LinkedIn
 =======
-                <a href="https://linkedin.com/in/augusto-altmayer" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-green-400 transition-colors terminal-text hover:underline">
-                  linkedin.com/in/augusto-altmayer
+                <a href="www.linkedin.com/in/augustowolfartaltmayer" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-green-400 transition-colors terminal-text hover:underline">
+                  Meu LinkedIn
 >>>>>>> bb7cdb76cd999bb74fa8bdc3a31253e2e6e4e9a2
                 </a>
               </CardContent>
