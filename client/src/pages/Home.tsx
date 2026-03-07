@@ -602,7 +602,7 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <a
-                  href="www.linkedin.com/in/augustowolfartaltmayer"
+                  href="https://www.linkedin.com/in/augustowolfartaltmayer/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-orange-400 hover:text-green-400 transition-colors terminal-text hover:underline"
