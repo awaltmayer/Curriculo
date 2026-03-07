@@ -5,6 +5,7 @@ Portfólio e currículo profissional moderno desenvolvido com React, Tailwind CS
 ## 🚀 Deploy no Vercel
 
 ### Pré-requisitos
+
 - Conta no GitHub
 - Conta no Vercel (https://vercel.com)
 
@@ -39,6 +40,7 @@ git push -u origin main
 ### Passo 3: Configurar Build
 
 O Vercel detectará automaticamente:
+
 - **Framework Preset**: Vite
 - **Build Command**: `pnpm build`
 - **Output Directory**: `dist/public`
@@ -48,6 +50,7 @@ Não é necessário fazer nenhuma configuração adicional. Clique em "Deploy"!
 ### Passo 4: Pronto! 🎉
 
 Seu currículo estará online em poucos segundos com um domínio automático como:
+
 - `seu-projeto.vercel.app`
 
 Você também pode conectar um domínio customizado nas configurações do Vercel.
