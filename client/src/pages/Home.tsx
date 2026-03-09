@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import { useState, useEffect } from "react";
 import { toast } from "sonner";
+import SwimmingFish from "@/components/SwimmingFish";
 
 
 /**
@@ -187,7 +188,8 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-background relative z-10">
-
+      {/* Swimming Fish Background */}
+      <SwimmingFish />
 
       {/* Progress Bar */}
       <div className="progress-bar" style={{ width: `${scrollProgress}%` }} />
