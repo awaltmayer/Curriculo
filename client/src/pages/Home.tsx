@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import { useState, useEffect } from "react";
 import { toast } from "sonner";
+import InteractiveFishBackground from "@/components/InteractiveFishBackground";
 
 /**
  * Design Philosophy: VSCode Dark Theme - Balanced & Interactive
@@ -186,6 +187,9 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-background">
+      {/* Fish Background */}
+      <InteractiveFishBackground />
+
       {/* Progress Bar */}
       <div className="progress-bar" style={{ width: `${scrollProgress}%` }} />
 
