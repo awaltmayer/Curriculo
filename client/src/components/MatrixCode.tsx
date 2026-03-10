@@ -29,8 +29,8 @@ export default function MatrixCode() {
       drops[i] = Math.random() * canvas.height;
     }
 
-    // Colors - using cyan and purple from the theme
-    const colors = ['#00F0FF', '#7000FF', '#00D9E8', '#8B2FFF'];
+    // Monochromatic cyan color
+    const colors = ['#00F0FF'];
 
     const draw = () => {
       // More opaque background for cleaner effect
@@ -57,11 +57,11 @@ export default function MatrixCode() {
         // Reset shadow
         ctx.shadowBlur = 0;
 
-        // Randomly reset drop or move down (slower speed)
-        if (drops[i] * fontSize > canvas.height || Math.random() > 0.985) {
+        // Randomly reset drop or move down (much slower speed)
+        if (drops[i] * fontSize > canvas.height || Math.random() > 0.995) {
           drops[i] = 0;
         } else {
-          drops[i] += 0.5;  // Slower movement
+          drops[i] += 0.15;  // Much slower movement
         }
       }
 
