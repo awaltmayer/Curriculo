@@ -33,8 +33,8 @@ export default function MatrixCode() {
     const colors = ['#00F0FF', '#7000FF', '#00D9E8', '#8B2FFF'];
 
     const draw = () => {
-      // Semi-transparent background for trail effect
-      ctx.fillStyle = 'rgba(30, 30, 30, 0.05)';
+      // More opaque background for cleaner effect
+      ctx.fillStyle = 'rgba(30, 30, 30, 0.15)';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
       ctx.font = `${fontSize}px 'Roboto Mono', monospace`;
@@ -57,11 +57,11 @@ export default function MatrixCode() {
         // Reset shadow
         ctx.shadowBlur = 0;
 
-        // Randomly reset drop or move down
-        if (drops[i] * fontSize > canvas.height || Math.random() > 0.975) {
+        // Randomly reset drop or move down (slower speed)
+        if (drops[i] * fontSize > canvas.height || Math.random() > 0.985) {
           drops[i] = 0;
         } else {
-          drops[i]++;
+          drops[i] += 0.5;  // Slower movement
         }
       }
 
