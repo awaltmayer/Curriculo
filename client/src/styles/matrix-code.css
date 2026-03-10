@@ -1,0 +1,9 @@
+.matrix-code-canvas {
+  display: block;
+  background: transparent;
+}
+
+/* Ensure canvas doesn't interfere with content */
+canvas {
+  pointer-events: none;
+}
