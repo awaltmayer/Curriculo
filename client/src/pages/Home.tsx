@@ -18,7 +18,6 @@ import {
 } from "lucide-react";
 import { useState, useEffect } from "react";
 import { toast } from "sonner";
-import MatrixCode from "@/components/MatrixCode";
 
 
 /**
@@ -188,9 +187,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-background relative z-10">
-      {/* Matrix Code Background */}
-      <MatrixCode />
-
       {/* Progress Bar */}
       <div className="progress-bar" style={{ width: `${scrollProgress}%` }} />
 
