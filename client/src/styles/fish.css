@@ -17,95 +17,188 @@
   filter: drop-shadow(0 0 8px rgba(0, 240, 255, 0.3));
 }
 
-/* Fish 1 - Top left, slow speed */
+/* Fish 1 - Top left, slow speed with wavy motion */
 .fish-1 {
   top: 15%;
   left: -80px;
-  animation: swim-left-to-right 20s linear infinite;
+  animation: swim-wavy-ltr-slow 25s ease-in-out infinite;
 }
 
-/* Fish 2 - Middle, medium speed */
+/* Fish 2 - Middle, medium speed with wavy motion */
 .fish-2 {
   top: 35%;
   right: -80px;
   transform: scaleX(-1);
-  animation: swim-right-to-left 25s linear infinite;
+  animation: swim-wavy-rtl-medium 30s ease-in-out infinite;
   animation-delay: 2s;
 }
 
-/* Fish 3 - Lower middle, slow speed */
+/* Fish 3 - Lower middle, slow speed with wavy motion */
 .fish-3 {
   top: 55%;
   left: -80px;
-  animation: swim-left-to-right 30s linear infinite;
+  animation: swim-wavy-ltr-slow 35s ease-in-out infinite;
   animation-delay: 4s;
 }
 
-/* Fish 4 - Top right, fast speed */
+/* Fish 4 - Top right, fast speed with wavy motion */
 .fish-4 {
   top: 20%;
   right: -80px;
   transform: scaleX(-1);
-  animation: swim-right-to-left 18s linear infinite;
+  animation: swim-wavy-rtl-fast 22s ease-in-out infinite;
   animation-delay: 1s;
 }
 
-/* Fish 5 - Bottom, medium speed */
+/* Fish 5 - Bottom, medium speed with wavy motion */
 .fish-5 {
   bottom: 20%;
   left: -80px;
-  animation: swim-left-to-right 22s linear infinite;
+  animation: swim-wavy-ltr-medium 28s ease-in-out infinite;
   animation-delay: 3s;
 }
 
-/* Fish 6 - Lower area, slow speed */
+/* Fish 6 - Lower area, slow speed with wavy motion */
 .fish-6 {
   bottom: 15%;
   right: -80px;
   transform: scaleX(-1);
-  animation: swim-right-to-left 28s linear infinite;
+  animation: swim-wavy-rtl-slow 32s ease-in-out infinite;
   animation-delay: 5s;
 }
 
-/* Animation: Left to Right */
-@keyframes swim-left-to-right {
+/* Animation: Left to Right - Slow with smooth wave */
+@keyframes swim-wavy-ltr-slow {
   0% {
     left: -80px;
-    transform: translateY(0px);
+    top: 15%;
   }
-  25% {
-    transform: translateY(-8px);
+  15% {
+    top: calc(15% - 25px);
   }
-  50% {
-    transform: translateY(0px);
+  30% {
+    top: 15%;
+  }
+  45% {
+    top: calc(15% + 20px);
+  }
+  60% {
+    top: 15%;
   }
   75% {
-    transform: translateY(8px);
+    top: calc(15% - 15px);
   }
   100% {
     left: 100%;
-    transform: translateY(0px);
+    top: 15%;
   }
 }
 
-/* Animation: Right to Left */
-@keyframes swim-right-to-left {
+/* Animation: Right to Left - Medium with smooth wave */
+@keyframes swim-wavy-rtl-medium {
   0% {
     right: -80px;
-    transform: scaleX(-1) translateY(0px);
+    top: 35%;
   }
-  25% {
-    transform: scaleX(-1) translateY(-8px);
+  15% {
+    top: calc(35% - 20px);
   }
-  50% {
-    transform: scaleX(-1) translateY(0px);
+  30% {
+    top: 35%;
+  }
+  45% {
+    top: calc(35% + 25px);
+  }
+  60% {
+    top: 35%;
   }
   75% {
-    transform: scaleX(-1) translateY(8px);
+    top: calc(35% - 18px);
   }
   100% {
     right: 100%;
-    transform: scaleX(-1) translateY(0px);
+    top: 35%;
+  }
+}
+
+/* Animation: Left to Right - Medium with smooth wave */
+@keyframes swim-wavy-ltr-medium {
+  0% {
+    left: -80px;
+    bottom: 20%;
+  }
+  15% {
+    bottom: calc(20% + 22px);
+  }
+  30% {
+    bottom: 20%;
+  }
+  45% {
+    bottom: calc(20% - 28px);
+  }
+  60% {
+    bottom: 20%;
+  }
+  75% {
+    bottom: calc(20% + 18px);
+  }
+  100% {
+    left: 100%;
+    bottom: 20%;
+  }
+}
+
+/* Animation: Right to Left - Fast with smooth wave */
+@keyframes swim-wavy-rtl-fast {
+  0% {
+    right: -80px;
+    top: 20%;
+  }
+  15% {
+    top: calc(20% + 18px);
+  }
+  30% {
+    top: 20%;
+  }
+  45% {
+    top: calc(20% - 22px);
+  }
+  60% {
+    top: 20%;
+  }
+  75% {
+    top: calc(20% + 15px);
+  }
+  100% {
+    right: 100%;
+    top: 20%;
+  }
+}
+
+/* Animation: Right to Left - Slow with smooth wave */
+@keyframes swim-wavy-rtl-slow {
+  0% {
+    right: -80px;
+    bottom: 15%;
+  }
+  15% {
+    bottom: calc(15% - 24px);
+  }
+  30% {
+    bottom: 15%;
+  }
+  45% {
+    bottom: calc(15% + 20px);
+  }
+  60% {
+    bottom: 15%;
+  }
+  75% {
+    bottom: calc(15% - 16px);
+  }
+  100% {
+    right: 100%;
+    bottom: 15%;
   }
 }
 
@@ -117,26 +210,26 @@
   }
 
   .fish-1 {
-    animation: swim-left-to-right 15s linear infinite;
+    animation: swim-wavy-ltr-slow 20s ease-in-out infinite;
   }
 
   .fish-2 {
-    animation: swim-right-to-left 18s linear infinite;
+    animation: swim-wavy-rtl-medium 24s ease-in-out infinite;
   }
 
   .fish-3 {
-    animation: swim-left-to-right 22s linear infinite;
+    animation: swim-wavy-ltr-slow 28s ease-in-out infinite;
   }
 
   .fish-4 {
-    animation: swim-right-to-left 14s linear infinite;
+    animation: swim-wavy-rtl-fast 18s ease-in-out infinite;
   }
 
   .fish-5 {
-    animation: swim-left-to-right 16s linear infinite;
+    animation: swim-wavy-ltr-medium 22s ease-in-out infinite;
   }
 
   .fish-6 {
-    animation: swim-right-to-left 20s linear infinite;
+    animation: swim-wavy-rtl-slow 26s ease-in-out infinite;
   }
 }
